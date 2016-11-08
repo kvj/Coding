@@ -16,14 +16,6 @@ def and_sum(a, b):
         else:
             return r
     return a
-    r = a
-    i = a + 1
-    while i <= b:
-        r = r & i
-        if r == 0:
-            return r
-        i += 1
-    return r
 
 q = int(raw_input().strip())
 for i in range(q):
